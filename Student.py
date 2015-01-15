@@ -1,6 +1,7 @@
 class Student:
     courseMarks={}
     name= ""
+    family= ""
     def __init__(self, name, family):
         self.name=name
         self.family=family
